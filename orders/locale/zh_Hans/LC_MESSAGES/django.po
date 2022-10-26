@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 16:36+0800\n"
+"PO-Revision-Date: 2022-10-20 08:41+0000\n"
+"Last-Translator:   <officexchangesg@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: orders/models.py:12
+msgid "first name"
+msgstr "名字"
+
+#: orders/models.py:13
+msgid "last name"
+msgstr "姓氏"
+
+#: orders/models.py:14
+msgid "e-mail"
+msgstr "电邮地址"
+
+#: orders/models.py:15
+msgid "address"
+msgstr "联系地址"
+
+#: orders/models.py:16
+msgid "postal code"
+msgstr "邮政编码"
+
+#: orders/models.py:17
+msgid "city"
+msgstr "城市"
+
+#: orders/templates/orders/order/create.html:4
+#: orders/templates/orders/order/create.html:7
+msgid "Checkout"
+msgstr "去付款"
+
+#: orders/templates/orders/order/create.html:9
+msgid "Your order"
+msgstr "订单"
+
+#: orders/templates/orders/order/create.html:19
+#, python-format
+msgid ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% off)\n"
+"      "
+msgstr ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% 折扣)\n"
+"      "
+
+#: orders/templates/orders/order/create.html:26
+msgid "Total"
+msgstr "总额"
+
+#: orders/templates/orders/order/create.html:31
+msgid "Place order"
+msgstr "确认订单"
+
+#: orders/urls.py:7
+msgid "create/"
+msgstr "创建订单/"

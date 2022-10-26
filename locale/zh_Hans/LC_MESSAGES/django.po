@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 16:36+0800\n"
+"PO-Revision-Date: 2022-10-20 08:38+0000\n"
+"Last-Translator:   <officexchangesg@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: cart/forms.py:9
+msgid "Quantity"
+msgstr "数量"
+
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "优惠券"
+
+#: djangoProject/settings.py:139
+msgid "English"
+msgstr "英语"
+
+#: djangoProject/settings.py:140
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: djangoProject/settings.py:141
+msgid "Traditional Chinese"
+msgstr "繁体中文"
+
+#: djangoProject/urls.py:34
+msgid "cart/"
+msgstr "购物车/"
+
+#: djangoProject/urls.py:35
+msgid "orders/"
+msgstr "订单/"
+
+#: djangoProject/urls.py:36
+msgid "payment/"
+msgstr "付款/"
+
+#: djangoProject/urls.py:37
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "优惠券/"
+
+#: payment/urls.py:7
+msgid "process/"
+msgstr "订单处理/"
+
+#: payment/urls.py:8
+msgid "completed/"
+msgstr "订单完成/"
+
+#: payment/urls.py:9
+msgid "canceled/"
+msgstr "付款取消/"
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr "我的店铺"
+
+#: shop/templates/shop/base.html:18
+msgid "Your cart"
+msgstr "购物车"
+
+#: shop/templates/shop/base.html:20
+#, python-format
+msgid ""
+"\n"
+"                  %(items)s item, $%(total)s\n"
+"                "
+msgid_plural ""
+"\n"
+"                  %(items)s items, $%(total)s\n"
+"                "
+msgstr[0] ""
+"\n"
+"                  %(items)s 货品, $%(total)s\n"
+"                "
+msgstr[1] ""
+"\n"
+"                  %(items)s 货品, $%(total)s\n"
+"                "
+
+#: shop/templates/shop/base.html:27
+msgid "Your cart is empty."
+msgstr "您的购物车还是空的，加油！"
+
+#: shop/templates/shop/product/detail.html:21
+msgid "Add to cart"
+msgstr "放入购物车"
+
+#: shop/templates/shop/product/detail.html:27
+msgid "People who bought this also bought"
+msgstr "其他人也买了以下商品"
